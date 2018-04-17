@@ -1,0 +1,25 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    line-height: 120px;
+    color: white;
+    padding-left: 30px;
+}
+
+.post {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px solid #888888;
+    padding-top: 50px;
+    min-height: 100px;
+}
+
+.post .title {
+    text-decoration: underline;
+}
+

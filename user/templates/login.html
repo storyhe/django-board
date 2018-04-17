@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="{% url 'login' %}" method="post">
+    {% csrf_token %}
+    사용자 아이디 : <input type="text" name="userid" placeholder="사용자 아이디"><br />
+    사용자 비밀번호 : <input type="password" name="userpassword" placeholder="사용자 패스워드"><br />
+    <input type="submit" value="로그인" /> |
+    <a href="{% url 'join' %}">회원가입 </a>
+</form>
+
+</body>
+</html>
